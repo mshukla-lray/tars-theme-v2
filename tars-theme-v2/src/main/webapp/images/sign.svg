@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <g id="sign" transform="translate(-1161 -1944)">
+    <rect id="Rectangle_2725" data-name="Rectangle 2725" width="320" height="138.42" transform="translate(1161 1944)" fill="#f6f9fe"/>
+    <g id="Group_6189" data-name="Group 6189" transform="translate(1161 2082)">
+      <path id="Path_6166" data-name="Path 6166" d="M-70,0H250V62H-70Z" transform="translate(70)" fill="#ee0006"/>
+      <text id="Signature" transform="translate(160 35.911)" fill="#fff" font-size="20" font-family="RTA Custom, Helvetica Neue, Helvetica, Arial, sans-serif"><tspan x="-42.81" y="0">Signature</tspan></text>
+    </g>
+    <path id="Edit" d="M11287-51h-60v-59h60v59Zm-44.17-43.661a2.33,2.33,0,0,0-2.5,2.068v26.038a2.708,2.708,0,0,0,2.5,2.068h23.308c1.269,0,2.109-1.3,2.5-2.068V-81.844l-8.738,8.266-6.246-6.2,14.154-14.053.83.827,5.411,5.374.832-.414.833-.827,1.249-1.654-2.082-2.065-4.161-4.133-1.665,1.238-1.247,1.241c-.419-.414-.837-.414-1.668-.414Zm8.742,24.386h0c-.409,0-.833,0-.833-.414a.406.406,0,0,1-.416-.411l1.665-7.028,6.243,6.2-6.659,1.651Z" transform="translate(-9935.999 2094.002)" fill="#161c8f"/>
+  </g>
+</svg>

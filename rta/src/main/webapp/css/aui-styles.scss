@@ -1,0 +1,690 @@
+﻿@import url(fonts.css);
+@import url(fontawesome.css);
+@import url(common.min.css);
+
+@import "variable.scss";
+@import "function.scss";
+
+body {
+    .input-group {
+        img {
+            position: absolute;
+            left: 21px;
+            top: 29px;
+            z-index: 4;
+            width: 30px;
+            height: 30px;
+        }
+
+        .form-control {
+            border: 1px solid #C0C0C0;
+            border-radius: 0;
+            background-color: #F9F9F9;
+            padding: 15px 15px 15px 72px;
+            font-size: 22px;
+            height: 62px;
+            color: $black;
+            width: 77%;
+
+            &.error {
+                border: 1px solid #EE0000;
+            }
+
+            &::placeholder {
+                color: #86888B;
+            }
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        .input-group-btn {
+            margin-left: 0px;
+            position: absolute;
+            right: 171px;
+
+            .btn-outline-secondary, .btn-primary {
+                border: 1px solid #EE0000;
+                background-color: #EE0000;
+                border-radius: 0;
+                color: $white;
+                font-size: 20px;
+                padding: 15px 50px;
+                height: 62px;
+
+                &:focus {
+                    outline: 0;
+                }
+            }
+        }
+    }
+
+    .result-panel {
+        .search-results {
+            //start aui-grid-view//
+            .au-gridview {
+                ul.display-style-icon {
+                    @include dflex;
+                    @include flex-dir(row);
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    margin: 0;
+
+                    > li {
+                        width: 32.5%;
+                        margin: 15px 5px;
+                        background-color: #fff;
+                        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+                        cursor: pointer;
+                        border: 2px solid #fff;
+                        padding: 0;
+
+                        &:hover {
+                            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+                        }
+
+                        &:nth-child(3n+1) {
+                            margin-left: 0;
+                        }
+
+                        &:nth-child(3n+3) {
+                            margin-right: 0;
+                        }
+
+                        .ul-view {
+                            @include flex-dir(column);
+                            justify-content: center;
+
+                            &.selected {
+                                border: 2px solid #43BD68;
+
+                                .check-li {
+                                    display: block !important;
+
+                                    > .check-img {
+                                        display: block !important;
+                                    }
+                                }
+                            }
+
+                            &.linked {
+                                opacity: 0.3;
+                                cursor: not-allowed !important;
+                                box-shadow: none;
+                                border: 2px solid #f7f7f7;
+
+                                .link-li {
+                                    display: block !important;
+
+                                    > .link-img {
+                                        display: block !important;
+                                    }
+                                }
+                            }
+
+                            > li {
+                                padding: 10px 0;
+                                margin: 0 24px;
+                                border-bottom: 1px solid #D5D5D5;
+
+                                &:last-child, &.grid-last-li {
+                                    border-bottom: 0;
+                                }
+
+                                &:first-child {
+                                    border-bottom: 0;
+                                    background-color: #F9F9F9;
+                                    height: 98px;
+                                    margin: 0 0px;
+                                    padding: 24px;
+
+                                    > .ul- {
+                                        @include dflex;
+                                        @include flex-dir(row);
+                                        justify-content: space-between;
+                                        align-items: center;
+
+                                        > li {
+                                            @include dflex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            min-width: 50px;
+
+                                            &.plate {
+                                                min-width: 120px;
+                                                background-color: #fff;
+                                                border: 3px solid #000;
+                                                border-radius: 14px;
+                                                font-family: $font-Dubai;
+
+                                                > .number-plate {
+                                                    width: 100%;
+                                                    @include dflex;
+                                                    @include flex-dir(row);
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    padding: 5px;
+
+                                                    > .group {
+                                                        text-align: center;
+                                                    }
+
+                                                    h6 {
+                                                        margin: 0;
+                                                        font-weight: $font-bold;
+                                                        color: #000;
+                                                        font-size: 10px;
+                                                    }
+
+                                                    label {
+                                                        margin: 0;
+                                                        font-weight: $font-bold;
+                                                        color: #000;
+                                                        font-size: 10px;
+                                                    }
+                                                }
+                                            }
+
+                                            > img {
+                                                width: 50px;
+                                                height: 50px;
+                                            }
+
+                                            &.check-li {
+
+                                                > .check-img {
+                                                    display: none;
+                                                }
+                                            }
+
+                                            &.delete-li {
+                                                border: 2px solid transparent;
+                                                border-radius: 100%;
+                                                cursor: pointer;
+
+                                                > .delete-img {
+                                                    display: block;
+                                                    margin: auto;
+                                                    width: 45px;
+                                                    height: 45px;
+                                                    padding: 5px;
+                                                }
+
+                                                &:hover {
+                                                    border: 2px solid #171c8e;
+                                                    border-radius: 100%;
+                                                }
+                                            }
+
+                                            &.link-li {
+                                                display: none;
+
+                                                > .link-img {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                label {
+                                    &:first-child {
+                                        float: left;
+                                        text-align: left;
+                                        color: #171C8F;
+                                        margin: 0;
+                                        font-weight: $font-bold;
+                                    }
+
+                                    &:last-child {
+                                        float: right;
+                                        text-align: right;
+                                        color: #000;
+                                        margin: 0;
+                                        font-weight: $font-regular;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            //end aui-grid-view///
+            //start pagination for grid and list view//
+            .pagination-bar {
+                .dropdown {
+                    .dropdown-toggle {
+                        border: 0 !important;
+                        border-bottom: 2px solid #707070 !important;
+                        color: #000 !important;
+                        padding: 10px 0 !important;
+                    }
+
+                    &.show {
+                        .dropdown-toggle {
+                            background-color: transparent !important;
+                            color: #171C8F !important;
+                            border-color: #171C8F !important;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        min-width: 78px !important;
+                        left: -3px !important;
+                        border-radius: 0 !important;
+                    }
+                }
+
+                .pagination-results {
+                    font-weight: $font-bold !important;
+                    color: #52555A !important;
+                    margin-left: 25px !important;
+                }
+
+                .pagination {
+                    > li {
+                        > a {
+                            border: 0 !important;
+                            margin: 0 10px !important;
+                            padding: 10px !important;
+
+                            .hide-accessible {
+                                display: none !important;
+                            }
+                        }
+
+                        &.active {
+                            a {
+                                background-color: transparent !important;
+                                color: #171C8F !important;
+                            }
+                        }
+                    }
+                }
+            }
+            //end pagination for grid and list view//
+            //start aui-list-view//
+            .au-listview {
+                table {
+                    tr {
+                        td {
+                            box-shadow: none !important;
+                            border: 0 !important;
+                        }
+                    }
+                }
+
+                .ul-view {
+                    @include flex-dir(row);
+                    align-items: center;
+                    justify-content: flex-start;
+                    width: 100%;
+                    margin: 10px auto;
+                    background-color: #fff;
+                    box-shadow: 0 0 6px rgba(0,0,0,.16);
+                    cursor: pointer;
+                    border: 2px solid #fff;
+
+                    > li {
+                        /*min-width: 70px;*/
+                        margin: 0 15px 0 0;
+                        @include dflex;
+                        @include flex-dir(column);
+                        padding: 10px 0px;
+
+                        label {
+                            &:first-child {
+                                color: #171C8F;
+                                margin: 0;
+                                font-weight: $font-bold;
+                            }
+
+                            &:last-child {
+                                color: #000;
+                                margin: 0;
+                                font-weight: $font-regular;
+                            }
+                        }
+
+                        &:first-child {
+                            margin-right: 15px;
+                            /*max-width: 225px !important;*/
+                            background-color: #F9F9F9;
+                            height: 98px;
+                            padding: 24px;
+
+
+                            > .ul- {
+                                @include dflex;
+                                @include flex-dir(row);
+                                justify-content: space-between;
+                                align-items: center;
+
+                                > li {
+                                    @include dflex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    min-width: 50px;
+
+                                    &.plate {
+                                        min-width: 120px;
+                                        background-color: #fff;
+                                        border: 3px solid #000;
+                                        border-radius: 14px;
+                                        font-family: $font-Dubai;
+                                        margin-left: 10px;
+
+                                        > .number-plate {
+                                            width: 100%;
+                                            @include dflex;
+                                            @include flex-dir(row);
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            padding: 5px;
+
+                                            > .group {
+                                                text-align: center;
+                                            }
+
+                                            h6 {
+                                                margin: 0;
+                                                font-weight: $font-bold;
+                                                color: #000;
+                                            }
+
+                                            label {
+                                                margin: 0;
+                                                font-weight: $font-bold;
+                                                color: #000;
+                                            }
+                                        }
+                                    }
+
+                                    > img {
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.list-check-img {
+                            display: block !important;
+
+                            > img {
+                                display: none;
+                            }
+                        }
+
+                        &.list-link-img {
+                            display: none;
+                            margin: auto;
+                        }
+                    }
+
+                    &:hover {
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+                    }
+
+                    &.selected {
+                        border: 2px solid #43BD68;
+
+                        &.ul-view {
+
+                            > li {
+
+                                &.list-check-img {
+                                    display: block !important;
+                                    margin: auto;
+
+                                    > img {
+                                        display: block !important;
+                                        width: 50px;
+                                        height: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.linked {
+                        opacity: 0.3;
+                        cursor: not-allowed !important;
+                        box-shadow: none;
+                        border: 2px solid #f7f7f7;
+
+                        .list-link-img {
+                            display: block !important;
+                        }
+                    }
+                }
+            }
+            //end aui-list-view//
+            //start vehicle list page//
+            &.vehicleList {
+                .ul-modify-result {
+                    > li.btnPrimary {
+                        &:hover {
+                            border-color: #EE0000 !important;
+
+                            .btn-default {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+
+                .controlsPanel {
+                    .searchArea {
+                        .form-search {
+                            input.form-control {
+                                background: #ffffff;
+                                border: 1px solid #C0C0C0;
+                                border-right: 0;
+                                color: #A7A8A9;
+                                font-size: 16px;
+                                float: left;
+                                height: 40px;
+                                line-height: 40px;
+                                padding: 10px 20px 10px 10px;
+                                width: 300px;
+                            }
+
+                            .input-group-btn {
+                                display: none;
+                            }
+
+                            .toggle-advanced {
+                                display: none !important;
+                            }
+                        }
+
+                        button {
+                            position: absolute;
+                            top: 0;
+                            right: -12px;
+                        }
+                    }
+
+                    .commonGrid {
+                        table {
+                            border: 0;
+
+                            thead {
+                                th {
+                                    background: #ffffff;
+                                    border: 0 !important;
+                                    border-top: 1px solid #BDBEBE !important;
+                                    border-bottom: 1px solid #BDBEBE !important;
+                                    margin: 0;
+                                    padding: 25px 10px;
+                                    max-width: 120px;
+                                    min-width: 40px;
+                                    vertical-align: middle;
+
+
+                                    a {
+                                        color: #52555A;
+                                        font-weight: bold;
+
+                                        .table-sort-indicator {
+                                            top: 3px !important;
+                                        }
+                                    }
+                                }
+                            }
+
+                            tbody {
+                                tr {
+                                    &:nth-child(odd) {
+                                        > td {
+                                            background: #F2F6FC !important;
+                                        }
+                                    }
+
+                                    &:nth-child(even) {
+                                        > td {
+                                            background: #fff !important;
+                                        }
+                                    }
+
+                                    > td {
+                                        border: 0 !important;
+                                        padding: 25px 10px;
+                                        vertical-align: middle;
+
+                                        .btn-group {
+                                            .btn {
+                                                min-width: max-content;
+                                                padding: 0;
+                                                height: auto;
+                                                background: transparent;
+                                                border: 0;
+                                                font-size: 14px;
+                                                color: #212529;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            input[type='checkbox'] {
+                                display: block;
+                                margin: auto;
+                                -webkit-appearance: none;
+                            }
+
+                            input[type='checkbox']:after {
+                                content: '';
+                                display: inline-block;
+                                width: 24px;
+                                height: 24px;
+                                border: 1px solid #e1e3e4;
+                                border-radius: 100%;
+                                background: #e1e3e4;
+                            }
+
+
+                            input[type='checkbox']:checked:after {
+                                content: "✔";
+                                background-color: #fff;
+                                color: #fff;
+                                text-align: center;
+                                font-size: 13px;
+                                line-height: 25px;
+                                background: #43bd68;
+                                border-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+            //end vehicle list page//
+        }
+    }
+    //start pagination for table//
+    .lfr-pagination {
+        width: 100%;
+        float: left;
+        @include dflex;
+        @include flex-dir(row);
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 10px;
+
+        .lfr-pagination-config {
+            width: 25%;
+
+            .lfr-pagination-page-selector, .lfr-pagination-delta-selector {
+                .dropdown-toggle {
+                    border: 0 !important;
+                    border-bottom: 2px solid #707070 !important;
+                    color: #000 !important;
+                    padding: 10px 0 !important;
+                    line-height: 0;
+                    min-width: max-content;
+                    height: auto;
+                    font-size: $default-font-size;
+                    margin-right: 15px;
+                    background-color: transparent !important;
+
+                    &:hover {
+                        background-color: transparent !important;
+                    }
+                }
+            }
+        }
+
+        .search-results {
+            width: 25% !important;
+            float: left !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            margin: 0 !important;
+            font-size: $default-font-size !important;
+        }
+
+        .lfr-pagination-buttons {
+            &.pager {
+                padding: 0 !important;
+                width: 40% !important;
+                @include dflex;
+                @include flex-dir(row);
+                flex-wrap: nowrap !important;
+
+                > li {
+                    padding: 0 !important;
+                    width: 100% !important;
+
+                    a {
+                        background-color: #fff !important;
+                        border: 1px solid #171C8E !important;
+                        color: #171C8E !important;
+
+                        &:hover {
+                            background-color: #171C8E !important;
+                            border: 1px solid #171C8E !important;
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //end pagination for table//
+    .lfr-menu-list {
+        &.dropdown-menu {
+            min-width: 78px !important;
+            left: -3px !important;
+            border-radius: 0 !important;
+        }
+    }
+
+    .language-switch {
+        display: none;
+    }
+}

@@ -1,0 +1,909 @@
+/********************************************************************************************************** Global Blind Color */
+.blind-color,
+.blind-color section,
+.blind-color .footer-copyright,
+.blind-color .grey-box,
+.blind-color div,
+.blind-color .carousel-indicators .active,
+.blind-color .form .select select,
+.blind-color .form-control,
+.blind-color ul,
+.blind-color li,
+.blind-color span{
+	background-color:#000 !important;
+}
+
+.blind-color div,
+.blind-color .form-control,
+.blind-color ul li,
+.blind-color ul li span,
+.blind-color .btn-grey{
+	border-color: #fff !important;
+}
+
+.blind-color h1,
+.blind-color h2,
+.blind-color h3,
+.blind-color h4,
+.blind-color h5,
+.blind-color h6,
+.blind-color p,
+.blind-color p b,
+.blind-color a,
+.blind-color a div,
+.blind-color,
+.blind-color i,
+.blind-color .form .select select,
+.blind-color .search_home:hover input,
+.blind-color .form-control,
+.blind-color .bootstrap-datetimepicker-widget table td.day,
+.blind-color label,
+.blind-color li,
+.blind-color li span,
+html body.blind-color div *,
+.blind-color strong {
+	color:#FFF !important;
+}
+
+
+.blind-color input::-webkit-input-placeholder{
+	color:#FFF !important;
+}
+.blind-color input::-moz-placeholder{
+	color:#FFF !important;
+}
+.blind-color input:-ms-input-placeholder{
+	color:#FFF !important;
+}
+.blind-color input:-moz-placeholder{
+	color:#FFF !important;
+}
+
+
+.blind-color select,
+.blind-color div,
+.blind-color .form-control,
+.blind-color li,
+.blind-color span,
+.blind-color li span{
+	border-color:#fff !important;
+}
+
+
+
+.blind-color .btn2 a,
+.blind-color .btn-blue,
+.blind-color .btn-grey-dark,
+.blind-color .btn-default,
+.blind-color .btn-grey {
+	color: #000 !important;
+	background-color: #fff !important;
+	border-color:#FFF;
+}
+
+.blind-color .btn2 a:hover,
+.blind-color .btn-blue:hover,
+.blind-color .btn-grey-dark:hover,
+.blind-color .btn-grey:hover,
+.blind-color .btn-grey:before{
+	background: #eaeaea !important;
+}
+
+
+.blind-color img,
+.blind-color a:before,
+.blind-color a:after,
+.blind-color a,
+.blind-color label input[type="radio"]:checked,
+.blind-color label input[type="radio"],
+.blind-color label input[type="checkbox"]:checked,
+.blind-color label input[type="checkbox"],
+.blind-color li span,
+.blind-color span:before,
+.blind-color span:after,
+.blind-color table{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: grey;
+	-moz-filter: grey;
+	filter: grey;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-webkit-filter: grayscale(1) invert(1) brightness(200%);
+	filter: grayscale(1);
+}
+
+.blind-color a:before,
+.blind-color a:after,
+.blind-color a,
+.blind-color span:before,
+.blind-color span:after{
+	background-color:#000 !important;
+}
+
+
+.blind-color .access-droDown label img{
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	filter: grayscale(0);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: normal;
+	-moz-filter: normal;
+	filter: grey;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-webkit-filter: grayscale(0) invert(0) brightness(200%);
+	filter: grayscale(0);
+}
+
+.blind-color .access-droDown p{
+	color:#000;
+}
+
+
+.blind-color .datepicker .picker-switch,
+.blind-color .datepicker .prev,
+.blind-color .datepicker .next {
+	color: #fff;
+	background-color: #000;
+
+}
+.blind-color .bootstrap-datetimepicker-widget table th.disabled, .bootstrap-datetimepicker-widget table th.disabled:hover {
+	background-color: #000;
+	color: #fff;
+}
+.blind-color .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+	background-color: #000;
+}
+
+.blind-color .bootstrap-datetimepicker-widget table td.active,
+.blind-color .bootstrap-datetimepicker-widget table td span.active {
+	background-color: #FFF;
+	color: #000;
+}
+
+/**********************************Updated on 12022018*****/
+
+.blind-color .gov-dubai, .blind-color .login-n-register a em img, .blind-color .dubai-ae img,.blind-color .RTA-logo,.blind-color .dashboard-icon a em img{	
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-color header nav{
+	background-color:#000 !important;
+	border-top:1px solid #fff !important;
+	border-bottom:1px solid #fff !important;
+}
+
+.blind-color header nav .secondary-nav>ul>li>ul>li>a, .blind-color header nav .secondary-nav > ul > li > ul > li > a span{
+	filter:none !important;
+	background-color:#000 !important;
+}
+
+.blind-color header nav .secondary-nav>ul>li>ul>li>a:before{
+	content:none !important;
+}
+
+.blind-color header .main-nav ul li em{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+
+.blind-color .support-home.main-wrapper .support-wrapper ul li a:hover{
+	background-image:none !important;
+}
+
+.blind-color .support-home.main-wrapper .support-wrapper ul li a div{
+	background-color: transparent !important;
+}
+
+.blind-color .footer-service-happy ul li a,.blind-color .footer-service ul li:nth-child(1) a, .blind-color .rta-slider-col a, .blind-color .nav-font a,.blind-color .withnotific em{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) invert(1) brightness(200%) !important;
+    filter: grayscale(1) !important;
+}
+
+.blind-color .drive-n-car-service .col-grid25, .blind-color .drive-n-car-service .col-grid25 .public-transport-list{
+	background-color:transparent !important;
+}
+
+.blind-color .login-n-register a{
+	filter:none !important;
+}
+
+.blind-color header .main-nav ul li.active:after{
+	border-bottom-color:#fff !important;
+}
+
+.blind-color .car-services li a, .blind-color .parking-page li a{
+	border-color:transparent !important;
+}
+
+.blind-color .car-services li a.active, .blind-color .parking-page li a.active{
+	border-color:#fff !important;
+}
+
+
+.blind-color #public-transport-page .tab-wrapper .nav-pills li a{
+	border:1px solid #fff !important;
+}
+
+.blind-color #public-transport-page .tab-wrapper .nav-pills li.active a:before{
+	border-top-color:#fff !important;
+}
+
+.blind-color .car-services li em img,.blind-color .parking-page li em img{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-color .car-services li span,.blind-color .parking-page li span{
+	filter:none !important;
+}
+
+.blind-color #social .accordion .item .heading{
+	-webkit-filter: grayscale(1) invert(0) brightness(100%);
+    -moz-filter:  grayscale(1) invert(0) brightness(100%);
+    -ms-filter: grayscale(1) invert(0) brightness(100%);
+    -o-filter:  grayscale(1) invert(0) brightness(100%);
+    -webkit-filter: grayscale(1) invert(0) brightness(100%);
+    filter:  grayscale(1) invert(0) brightness(100%);
+}
+
+.blind-color table *{
+	color:#000 !important;
+}
+
+.blind-color header .search-box ,.blind-color header .search-box .container,.blind-color header .search-box input[type=search]{
+	background:#ffffff !important;
+	color:#000000 !important;
+}
+
+.blind-color  .search-box .search-action-btn,.blind-color .text-resize .minus, .blind-color .text-resize .plus{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+}
+
+/**********************************Updated on 04032018*****/
+
+.blind-color .fade-body, .blind-color .fancybox-overlay{
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+
+/********************************************************************************************************* Global Blind Green */
+.blind-green,
+.blind-green section,
+.blind-green .footer-copyright,
+.blind-green .grey-box,
+.blind-green div,
+.blind-green .carousel-indicators .active,
+.blind-green .form .select select,
+.blind-green input,
+.blind-green input.form-control,
+.blind-green ul,
+.blind-green li,
+.blind-green span,
+.blind-green li span{
+	background-color:#3a5796 !important;
+}
+
+.blind-green div,
+.blind-green .form .form-control,
+.blind-green input,
+.blind-green select,
+.blind-green ul li span{
+	border-color: #fff !important;
+}
+
+.blind-green h1,
+.blind-green h2,
+.blind-green h3,
+.blind-green h4,
+.blind-green h5,
+.blind-green h6,
+.blind-green p,
+.blind-green p b,
+.blind-green a,
+.blind-green a div,
+.blind-green,
+.blind-green i,
+.blind-green .form .select select,
+.blind-green .search_home:hover input,
+.blind-green h2 span,
+.blind-green .form .select select,
+.blind-green .search_home:hover input
+.blind-green input,
+.blind-green input.form-control,
+.blind-green .bootstrap-datetimepicker-widget table td.day,
+.blind-green label,
+.blind-green li,
+.blind-green ul li span,
+.blind-green strong,
+.blind-green span,
+.blind-green strong{
+	color:#FFF !important;
+}
+
+
+.blind-green input::-webkit-input-placeholder{
+	color:#FFF !important;
+}
+.blind-green input::-moz-placeholder{
+	color:#FFF !important;
+}
+.blind-green input:-ms-input-placeholder{
+	color:#FFF !important;
+}
+.blind-green input:-moz-placeholder{
+	color:#FFF !important;
+}
+
+
+.blind-green select,
+.blind-green div,
+.blind-green .form-control,
+.blind-green li,
+.blind-green span,
+.blind-green li span{
+	border-color:#fff !important;
+}
+
+
+
+.blind-green .btn2 a,
+.blind-green .btn-blue,
+.blind-green .btn-grey-dark,
+.blind-green .btn-default,
+.blind-green .btn-grey{
+	color: #3a5796  !important;
+	background-color: #fff !important;
+	border-color:#FFF;
+}
+
+.blind-green .btn2 a:hover,
+.blind-green .btn-blue:hover,
+.blind-green .btn-grey-dark:hover,
+.blind-green .btn-grey:before{
+	background: #eaeaea !important;
+}
+
+
+.blind-green img,
+.blind-green li span,
+.blind-green label input[type="checkbox"]:checked,
+.blind-green label input[type="checkbox"],
+.blind-green table{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: grey;
+	-moz-filter: grey;
+	filter: grey;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-webkit-filter: grayscale(1) invert(1) brightness(200%);
+	filter: grayscale(1);
+}
+
+.blind-green a:before,
+.blind-green a:after,
+.blind-green a,
+.blind-green span:before,
+.blind-green span:after{
+	filter:none !important;
+	background-color:#3a5796 !important;
+}
+
+.blind-green label input[type="radio"]:checked,
+.blind-green label input[type="radio"]{
+	-webkit-filter: brightness(0) invert(1);
+	-o-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+	background-color: transparent !important;
+}
+
+
+
+.blind-green .access-droDown label img{
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	filter: grayscale(0);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: normal;
+	-moz-filter: normal;
+	filter: grey;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-webkit-filter: grayscale(0) invert(0) brightness(200%);
+	filter: grayscale(0);
+}
+
+.blind-green .access-droDown p{
+	color:#000;
+}
+
+
+.blind-green .datepicker .picker-switch,
+.blind-green .datepicker .prev,
+.blind-green .datepicker .next {
+	color: #fff;
+	background-color: #3a5796;
+
+}
+.blind-green .bootstrap-datetimepicker-widget table th.disabled, .bootstrap-datetimepicker-widget table th.disabled:hover {
+	background-color: #3a5796;
+	color: #fff;
+}
+.blind-green .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+	background-color: #3a5796;
+}
+
+.blind-green .bootstrap-datetimepicker-widget table td.active,
+.blind-green .bootstrap-datetimepicker-widget table td span.active {
+	background-color: #3a5796;
+	color: #FFF;
+}
+
+
+/**********************************Updated on 12022018*****/
+
+.blind-green .gov-dubai,  .blind-green .login-n-register a em img, .blind-green .dubai-ae img,.blind-green .RTA-logo,.blind-green .dashboard-icon a em img{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-green header nav{
+	background-color:#3a5796 !important;
+	border-top:1px solid #fff !important;
+	border-bottom:1px solid #fff !important;
+}
+
+.blind-green header nav .secondary-nav>ul>li>ul>li>a, .blind-green header nav .secondary-nav > ul > li > ul > li > a span{
+	filter:none !important;
+	background-color:#3a5796 !important;
+}
+
+.blind-green header nav .secondary-nav>ul>li>ul>li>a:before{
+	content:none !important;
+}
+
+.blind-green header .main-nav ul li em{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-green .support-home.main-wrapper .support-wrapper ul li a:hover{
+	background-image:none !important;
+}
+
+.blind-green .support-home.main-wrapper .support-wrapper ul li a div{
+	background-color: transparent !important;
+}
+
+.blind-green .footer-service-happy ul li a,.blind-green .footer-service ul li:nth-child(1) a, .blind-green .rta-slider-col a,.blind-green .nav-font a,.blind-green .withnotific em{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) invert(1) brightness(200%) !important;
+    filter: grayscale(1) !important;
+}
+
+.blind-green .drive-n-car-service .col-grid25, .blind-green .drive-n-car-service .col-grid25 .public-transport-list{
+	background-color:transparent !important;
+}
+
+
+.blind-green .login-n-register a{
+	filter:none !important;
+}
+
+.blind-green header .main-nav ul li.active:after{
+	border-bottom-color:#fff !important;
+}
+
+.blind-green .car-services li a,.blind-green .parking-page li a{
+	border-color:transparent !important;
+}
+
+.blind-green .car-services li a.active, .blind-green .parking-page li a.active{
+	border-color:#fff !important;
+}
+
+.blind-green #public-transport-page .tab-wrapper .nav-pills li a{
+	border:1px solid #fff !important;
+}
+
+.blind-green #public-transport-page .tab-wrapper .nav-pills li.active a:before{
+	border-top-color:#fff !important;
+}
+
+.blind-green .car-services li em img, .blind-green .parking-page li em img{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-green .car-services li span, .blind-green .tab-menu ul li a span, .blind-green .parking-page li span{
+	filter:none !important;
+}
+
+.blind-green #social .accordion .item .heading{
+	-webkit-filter: grayscale(1) invert(0) brightness(100%);
+    -moz-filter:  grayscale(1) invert(0) brightness(100%);
+    -ms-filter: grayscale(1) invert(0) brightness(100%);
+    -o-filter:  grayscale(1) invert(0) brightness(100%);
+    -webkit-filter: grayscale(1) invert(0) brightness(100%);
+    filter:  grayscale(1) invert(0) brightness(100%);
+	background-color:transparent !important;
+}
+
+.blind-green .upd-feed ul li h2 .upd-icon{
+	color:#fff !important;
+}
+
+.blind-green table *{
+	color:#000 !important;
+}
+
+
+.blind-green header .search-box ,.blind-green header .search-box .container, .blind-green header .search-box input[type=search]{
+	background:#ffffff !important;
+	color:#000000 !important;
+}
+
+.blind-green  .search-box .search-action-btn,.blind-green .text-resize .minus, .blind-green .text-resize .plus{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+	    background-color: #ffffff !important;
+}
+
+/**********************************Updated on 04032018*****/
+
+.blind-green .fade-body, .blind-green .fancybox-overlay{
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+
+/********************************************************************************************************** Global Blind Red */
+.blind-red,
+.blind-red section,
+.blind-red .footer-copyright,
+.blind-red .grey-box,
+.blind-red div,
+.blind-red .carousel-indicators .active,
+.blind-red .form .select select,
+.blind-red .form-control,
+.blind-red ul,
+.blind-red li,
+.blind-red span,
+.blind-red li span{
+	background-color:#000 !important;
+}
+
+.blind-red h1,
+.blind-red h2,
+.blind-red h3,
+.blind-red h4,
+.blind-red h5,
+.blind-red h6,
+.blind-red p,
+.blind-red p b,
+.blind-red a,
+.blind-red a div 	,
+.blind-red,
+.blind-red i,
+.blind-red .form .select select,
+.blind-red .search_home:hover input,
+.blind-red input,
+.blind-red input.form-control,
+.blind-red label,
+.blind-red li,
+.blind-red li,
+.blind-red span,
+.blind-red li,
+.blind-red strong{
+	color:yellow !important;
+}
+
+
+.blind-red input::-webkit-input-placeholder{
+	color:yellow !important;
+}
+.blind-red input::-moz-placeholder{
+	color:yellow !important;
+}
+.blind-red input:-ms-input-placeholder{
+	color:yellow !important;
+}
+.blind-red input:-moz-placeholder{
+	color:yellow !important;
+}
+.blind-red select,
+.blind-red div,
+.blind-red .form-control,
+.blind-red li,
+.blind-red span,
+.blind-red li span{
+	border-color:yellow !important;
+}
+
+.blind-red .btn2 a,
+.blind-red .btn-blue,
+.blind-red .btn-grey-dark,
+.blind-red .btn-default{
+	color: #000 !important;
+	background-color: #fff !important;
+	border-color:#FFF;
+}
+
+.blind-red .btn2 a:hover,
+.blind-red .btn-blue:hover,
+.blind-red .btn-grey-dark:hover,
+.blind-red .btn-grey:before{
+	background: #eaeaea !important;
+}
+
+
+.blind-red img,
+.blind-red li span,
+.blind-red label input[type="checkbox"]:checked,
+.blind-red label input[type="checkbox"],
+.blind-red span:before,
+.blind-red span:after,
+.blind-red table{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: grey;
+	-moz-filter: grey;
+	filter: grey;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-webkit-filter: grayscale(1) invert(1) brightness(200%);
+	filter: grayscale(1);
+}
+
+.blind-red a:before,
+.blind-red a:after,
+.blind-red a{
+	filter:none !important;
+	background-color:#000 !important;
+}
+.blind-red label input[type="radio"]:checked,
+.blind-red label input[type="radio"]{
+	-webkit-filter: brightness(0) invert(1);
+	-o-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+	background-color: transparent !important;
+}
+
+.blind-red .access-droDown label img{
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	filter: grayscale(0);
+	/*
+	-webkit-filter: url();
+	-moz-filter: url();
+	filter: url();
+	*/
+	
+	
+	-webkit-filter: normal;
+	-moz-filter: normal;
+	filter: grey;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-webkit-filter: grayscale(0) invert(0) brightness(200%);
+	filter: grayscale(0);
+}
+
+.blind-red .access-droDown p{
+	color:#000;
+}
+
+.blind-red .datepicker .picker-switch,
+.blind-red .datepicker .prev,
+.blind-red .datepicker .next {
+	color: yellow;
+	background-color: #000;
+
+}
+.blind-red .bootstrap-datetimepicker-widget table th.disabled,
+.blind-red .bootstrap-datetimepicker-widget table th.disabled:hover {
+	background-color: #000;
+	color: yellow;
+}
+.blind-red .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+	background-color: #000;
+}
+
+.blind-red .bootstrap-datetimepicker-widget table td.active,
+.blind-red .bootstrap-datetimepicker-widget table td span.active {
+	background-color: #000;
+	color:yellow;
+}
+
+/**********************************Updated on 12022018*****/
+
+.blind-red .gov-dubai,  .blind-red .login-n-register a em img, .blind-red .dubai-ae img,.blind-red .RTA-logo,.blind-red .dashboard-icon a em img{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-red header nav{
+	background-color:#000 !important;
+	border-top:1px solid #fff !important;
+	border-bottom:1px solid #fff !important;
+}
+
+.blind-red header nav .secondary-nav>ul>li>ul>li>a, .blind-red header nav .secondary-nav > ul > li > ul > li > a span{
+	filter:none !important;
+	background-color:#000 !important;
+}
+
+.blind-red header nav .secondary-nav>ul>li>ul>li>a:before{
+	content:none !important;
+}
+
+.blind-red header .main-nav ul li em{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-red .support-home.main-wrapper .support-wrapper ul li a:hover{
+	background-image:none !important;
+}
+
+.blind-red .support-home.main-wrapper .support-wrapper ul li a div{
+	background-color: transparent !important;
+}
+
+.blind-red .footer-service-happy ul li a,.blind-red .footer-service ul li:nth-child(1) a, .blind-red .rta-slider-col a, .blind-red .nav-font a, .blind-red .withnotific em{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) invert(1) brightness(200%) !important;
+    filter: grayscale(1) !important;
+}
+
+.blind-red .drive-n-car-service .col-grid25, .blind-red .drive-n-car-service .col-grid25 .public-transport-list{
+	background-color:transparent !important;
+}
+
+.blind-red .login-n-register a{
+	filter:none !important;
+}
+
+.blind-red header .main-nav ul li.active:after{
+	border-bottom-color:#fff !important;
+}
+
+.blind-red .car-services li a, .blind-red .parking-page li a{
+	border-color:transparent !important;
+}
+
+.blind-red .car-services li a.active,.blind-red .parking-page li a.active{
+	border-color:#fff !important;
+}
+
+.blind-red #public-transport-page .tab-wrapper .nav-pills li a{
+	border:1px solid #fff !important;
+}
+
+.blind-red #public-transport-page .tab-wrapper .nav-pills li.active a:before{
+	border-top-color:#fff !important;
+}
+
+.blind-red .car-services li em img, .blind-red .parking-page li em img{
+	-webkit-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.blind-red .car-services li span, .blind-red .parking-page li span{
+	filter:none !important;
+}
+
+.blind-red #social .accordion .item .heading{
+	-webkit-filter: grayscale(1) invert(0) brightness(100%);
+    -moz-filter:  grayscale(1) invert(0) brightness(100%);
+    -ms-filter: grayscale(1) invert(0) brightness(100%);
+    -o-filter:  grayscale(1) invert(0) brightness(100%);
+    -webkit-filter: grayscale(1) invert(0) brightness(100%);
+    filter:  grayscale(1) invert(0) brightness(100%);
+}
+
+
+.blind-red table *{
+	color:#000 !important;
+}
+
+.blind-red header .search-box  ,.blind-red header .search-box .container,.blind-red header .search-box input[type=search]{
+	background:#ffffff !important;
+	color:#000000 !important;
+}
+
+.blind-red  .search-box .search-action-btn,.blind-red .text-resize .minus, .blind-red .text-resize .plus{
+	-webkit-filter: grayscale(100%) !important;
+    -moz-filter: grayscale(100%) !important;
+    -ms-filter: grayscale(100%) !important;
+    -o-filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(1) !important;
+    filter: grayscale(1) !important;
+	background-color: #ffffff !important;
+}
+
+
+/**********************************Updated on 04032018*****/
+
+.blind-red .fade-body, .blind-green .fancybox-overlay{
+	background: rgba(0, 0, 0, .5) !important;
+}

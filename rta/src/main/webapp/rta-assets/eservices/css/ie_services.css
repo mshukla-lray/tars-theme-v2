@@ -1,0 +1,53 @@
+.smart-body .form-control-select:before {
+  z-index: 10;
+}
+
+.smart-body .form-control-select:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 35px;
+  width: 24px;
+  background-color: #fff;
+}
+
+.smart-body .form-control-select select {
+  padding-right: 0;
+}
+
+.smart-body .ss-swiper {
+  margin-bottom: 30px;
+}
+
+.smart-body .plate-box {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .smart-body .row > .col-lg-7 {
+    width: 58.33333333% !important;
+  }
+  .smart-body .row > .col-lg-5 {
+    width: 41.66666667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .smart-body .row > .col-sm-7 {
+    width: 58.33333333% !important;
+  }
+  .smart-body .row > .col-sm-5 {
+    width: 41.66666667%;
+  }
+}
+
+html[dir="rtl"] .smart-body .form-control-select:after {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .smart-body .form-control-select select {
+  padding-right: 15px;
+  padding-left: 0;
+}

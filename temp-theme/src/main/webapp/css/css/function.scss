@@ -1,0 +1,39 @@
+﻿@mixin floatwidth {
+    width: 100%;
+    float: left;
+}
+
+@function fontsize($size) {
+    $result: 16;
+    $result: ($size/$result);
+    @return $result+em;
+}
+
+@mixin dflex {
+    display: -webkit-box; //OLD - iOS 6-, Safari 3.1-6 //
+    display: -moz-box; // OLD - Firefox 19- (buggy but mostly works) //
+    display: -ms-flexbox; // TWEENER - IE 10 //
+    display: -webkit-flex; // NEW - Chrome //
+    display: flex; // NEW, Spec - Opera 12.1, Firefox 20+ //
+}
+
+@mixin flex-dir($dir) {
+    -webkit-flex-direction: $dir;
+    flex-direction: $dir;
+}
+
+@mixin transition($proerty:all, $duration:.4s, $function:ease, $delay:0s) {
+    -webkit-transition: $proerty $duration $function $delay;
+    -moz-transition: $proerty $duration $function $delay;
+    -o-transition: $proerty $duration $function $delay;
+    -ms-transition: $proerty $duration $function $delay;
+    transition: $proerty $duration $function $delay;
+}
+
+@mixin transition {
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}

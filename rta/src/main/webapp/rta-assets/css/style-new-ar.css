@@ -1,0 +1,1358 @@
+@import url("/rta-assets/css/style-new.css");
+@import url("/rta-assets/css/new-build-ar.css");
+@import url("/rta-assets/css/mega-menu-ar.css");
+@import url("/rta-assets/css/error-page-ar.css");
+@import url("/rta-assets/css/plan-your-journey-ar.css");
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+.pull-left {
+    float: right !important;
+}
+
+.main-wrapper {
+    font-family: 'RTA', Arial !important;
+    direction: rtl;
+}
+
+h2. h3 {
+    font-family: 'RTA', Arial !important;
+}
+
+.service-sticky {
+    left: auto;
+    right: -165px;
+}
+
+.service-sticky:hover {
+    left: auto;
+    right: 0;
+}
+
+.service-sticky-nav ul li a {
+    background-position: 12px center !important;
+}
+
+.rta-slider-wrapper .swiper-slide {
+    margin-right: 0;
+    margin-left: 19px;
+}
+
+.slider-content-wrap {
+    left: auto;
+    right: 0;
+}
+
+.slider-paly-btn {
+    float: left;
+}
+
+.slider-content {
+    float: right;
+}
+
+.slider-content span {
+    left: auto;
+    right: 20px;
+}
+
+.btn2 {
+    float: right;
+}
+
+.slider-paly-btn {
+    background: url(../img/play-ar.png) no-repeat center center;
+}
+
+.slider-paly-btn:hover {
+    background: url(../img/play-ar-2.png) no-repeat center center;
+}
+
+.discover-form fieldset select {
+    background-position: 15px center;
+}
+
+.populer-wrapper ul li {
+    float: right;
+    padding: 15px 0 0 15px;
+}
+
+.pop-services {
+    padding: 0 0 0 15px;
+    float: right;
+}
+
+.support-services-ic {
+    float: left;
+}
+
+.upd-feed-wrapper ul li {
+    float: right;
+    margin-right: 0;
+    margin-left: 5%;
+}
+
+.upd-feed-wrapper ul li:nth-child(3) {
+    margin-left: 0;
+}
+
+.upd-feed-wrapper .btn2 {
+    right: 0;
+    left: auto;
+    float: right;
+}
+
+.upd-icon span {
+    padding: 0 0 0 15px;
+}
+
+.upd-feed-content h3 {
+    padding: 25px 0 0px 30px;
+    font-size: 33px;
+}
+
+.upd-feed-content p {
+    padding: 25px 0 0 15px;
+}
+
+.mobile-app-wrapper > ul > li {
+    float: right;
+    padding: 15px 0 0 15px;
+}
+
+.mobile-services {
+    float: right;
+    padding: 0 0 0 15px;
+    font-size: 15px;
+}
+
+.mob-ic {
+    float: left;
+}
+
+.latest-left-pane {
+    float: right;
+}
+
+.latest-slider-col {
+    float: right;
+}
+
+.latest-right-pane {
+    float: right;
+}
+
+.support-wrapper ul li {
+    float: right;
+    border-left: 1px solid #ffffff;
+    border-right: none;
+}
+
+.support-wrapper ul li:nth-child(1) {
+    border-right: 1px solid #ffffff;
+}
+
+.support-services {
+    padding: 0px 60px 0px 0;
+    text-align: right;
+    float: right;
+}
+
+.support-wrapper ul li a {
+    background-position: 95% center !important;
+}
+
+.footernav ul {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.footernav ul li {
+    text-align: right;
+}
+
+
+
+
+
+
+.footer-copyright .bottom-text {
+    float: right;
+    text-align: right;
+}
+
+.social-midea {
+    float: right !important;
+}
+
+.social-midea li {
+    float: right;
+}
+
+.footer-service {
+    width: 530px;
+}
+
+.happy-logo-left {
+    float: right;
+}
+
+.happy-logo-right {
+    float: right;
+    width: 75%;
+    padding: 0 50px 0 0;
+}
+
+.happy-logo-right img {
+    float: right;
+}
+
+.happy-meter {
+    float: right;
+}
+
+.happy-meter ul li {
+    padding: 0 0 0 25px;
+}
+
+.footer-service ul li {
+    border-left: 1px solid #e5e6ea;
+    border-right: none;
+}
+
+.footer-service ul li:last-child {
+    border-left: none;
+}
+
+.footer-service ul li span:nth-child(1) {
+    float: right;
+}
+
+.footer-service ul li span:nth-child(2) {
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+.footer-service ul li:nth-child(4) a {
+    background-position: 10px center;
+}
+
+.footer-service ul li:nth-child(4) a:hover {
+    background-position: 10px center !important;
+}
+
+.footer-service ul li:nth-child(3) a {
+    background-position: 10px center;
+}
+
+.footer-service ul li:nth-child(3) a:hover,
+.footer-service ul li:nth-child(3) a.active,
+.footer-service ul li:nth-child(3) a.active:hover{
+    background-position: 10px center;
+}
+
+#main_nav_part ul.main_nav_bar {
+    float: right;
+    direction: rtl;
+}
+
+#main_nav_part ul.main_nav_bar > li {
+    float: right;
+}
+
+.search-box input {
+    text-align: right;
+}
+
+#main_nav_part ul.main_nav_bar > li > .second-menu ul {
+    float: right;
+}
+
+#main_nav_part ul.main_nav_bar > li > .second-menu ul > li > a {
+    text-align: right;
+    background: url(../img/link-ar.png) no-repeat left 9px;
+    text-align: right;
+    float: right;
+}
+
+#main_nav_part ul.main_nav_bar > li > .second-menu ul > li:hover > a {
+    background: url(../img/link_over-ar.png) no-repeat left 9px;
+    background-position: left 9px !important;
+}
+
+#main_nav_part ul.main_nav_bar > li.has_submenu.highlight,
+#main_nav_part ul.main_nav_bar > li.short.has_submenu.highlight2,
+#main_nav_part ul.main_nav_bar > li.has_submenu.highlight1 {
+    background: url(../img/dropdown-ar.png) no-repeat 5px 37px #ee0000;
+}
+
+.site-control li {
+    float: right;
+}
+
+li.lang-switcher {
+    float: left;
+    margin-left: -10px;
+}
+
+#set-1 ul li:nth-child(2) a {
+    float: right;
+    color: #ee0000;
+    background: url(../img/logo-dubai-ar.png) no-repeat center center;
+    padding: 20px 40px;
+}
+
+#set-1 ul li:nth-child(2) a:hover {
+    background: url(../img/logo-dubai-ar.png) no-repeat center center;
+}
+
+.overlay-sticky fieldset select {
+    background-position: 15px center;
+}
+
+.close-sticky {
+    right: auto;
+    left: 10px;
+}
+
+.medium .service-sticky {
+    width: 265px;
+    right: -215px;
+    left: auto;
+}
+
+.medium .service-sticky:hover {
+    right: 0;
+    left: auto;
+}
+
+.large .service-sticky {
+    width: 315px;
+    right: -265px;
+    left: auto;
+}
+
+.large .service-sticky:hover {
+    right: 0;
+    left: auto;
+}
+
+.footer-service ul li ul li a {
+    padding: 25px;
+}
+
+.online-chat .custom-select-dropdown:after {
+    right: auto;
+    left: 15px;
+}
+
+.overlay-questions .chat-start li {
+    padding: 5px 50px 0 50px;
+}
+
+.overlay-questions .chat-start li em {
+    left: auto;
+    right: 0;
+}
+
+.overlay-questions .status p {
+    float: right;
+}
+
+.overlay-questions .status p span {
+    padding: 0 2px 0 0;
+    float: left;
+}
+
+.overlay-questions .status p span img {
+    margin: 0 0 0 10px;
+}
+
+.overlay-questions .start-typing input[type="submit"] {
+    float: left;
+}
+
+.online-chat label {
+    float: right;
+}
+
+.overlay-questions h3 {
+    font-size: 44px;
+}
+
+#search_part ul {
+    float: right;
+    margin: 0 60px 0 0;
+}
+
+.search-box {
+    padding: 10px 60px 0 0;
+    background-position: right 10px !important;
+}
+
+.overlay-questions .status .email-chat, .overlay-questions .status .print-chat {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.footer-service-happy ul li a {
+    padding: 28px;
+}
+
+#set-1 ul li:nth-child(1) a {
+    background-position: 125px center !important;
+}
+
+#set-1 ul li:nth-child(1) a:hover {
+    background-position: 125px center !important;
+}
+
+#set-2 ul li:nth-child(1) a {
+    background-position: 130px center !important;
+}
+
+#set-2 ul li:nth-child(1) a:hover {
+    background-position: 130px center !important;
+}
+
+#set-2 ul li:nth-child(2) a {
+    background-position: 126px center;
+}
+
+.breadcrumb-rta li {
+    float: right;
+    padding: 0 0 0 13px;
+    margin: 0 0 0 6px;
+}
+
+.breadcrumb-rta li:after {
+    right: auto;
+    left: 2px;
+}
+
+.drive-n-car-service .img-title {
+    left: auto;
+    right: 0;
+}
+
+.icon-label {
+    left: auto;
+    right: 312px;
+}
+
+.drive-n-car-service .car-service-content ul li {
+    padding: 5px 27px 0 10px;
+    background: #ee0000 url("../img/arrow-white-ar.png") no-repeat 97% 7px;
+}
+
+.drive-n-car-service .car-service-content ul {
+    float: right;
+}
+
+.drive-n-car-service .car-service-text {
+    float: left;
+}
+
+.smart-app .swiper-wrapper .swiper-slide img {
+    float: left;
+}
+
+.smart-app .swiper-wrapper .swiper-slide .slide-text {
+    float: right;
+}
+
+.left-menu ul li h4 {
+    padding: 0 25px 0 0;
+}
+
+.left-menu ul.accordion li a {
+    padding: 0 25px 0 0;
+}
+
+.left-menu ul li h4 em {
+    float: left;
+}
+
+.left-menu ul li h4:before {
+    left: auto;
+    right: 5px;
+}
+
+.left-menu ul li h4:after {
+    left: auto;
+    right: 0;
+}
+
+.our-services .most-popular fieldset input[type=search] {
+    background-position: left center;
+    padding: 5px 22px 5px 0;
+    border-left: none;
+    border-right: 1px solid #626468;
+}
+
+.our-services .icon-label {
+    right: auto;
+    left: 0;
+}
+
+.categories-list .col-grid25 {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.categories-list .col-grid25:nth-of-type(3n+3) {
+    margin-left: 0;
+}
+
+.our-services .drive-n-car-service ul li {
+    float: right;
+    padding: 0 30px 0 0;
+    margin: 0 0 30px 1%;
+    background: url(../img/arrow-red-large-ar.png) no-repeat right 2px;
+}
+
+.our-services .car-services {
+    padding: 0 2% 0 0;
+}
+
+.our-services .car-services li a:after {
+    left: auto;
+    right: -20%;
+}
+
+.our-services .car-services li.second-last-icon {
+    border-right: none;
+    border-left: 1px solid #fff;
+
+}
+
+.car-services li {
+    float: right;
+    margin: 0 0 0 4%;
+}
+
+.car-services li span {
+    margin: 12px 10px 0 0;
+}
+
+.car-services li em {
+    float: right;
+}
+
+.categories-list .col-grid25 .category-item h4 {
+    margin-top: 10px;
+}
+
+.left-menu ul li:nth-of-type(2) h4 em {
+    margin-top: -24px;
+}
+
+.footer-copyright .col-lg-4, .footer-copyright .col-lg-8 {
+    float: right;
+}
+
+.blue-dark-box {
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+.section-defaults .blue-dark-box ul li {
+    padding: 0 18px 0 0;
+}
+
+.section-defaults .blue-dark-box ul li:before, .section-defaults ul.bullets li:before {
+    left: auto;
+    right: 0;
+    margin: 6px 0 6px 15px;
+}
+
+.section-defaults ul.bullets li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.g-accordion .head:before {
+    right: auto;
+    left: 10px;
+}
+
+.g-accordion .head:after {
+    right: auto;
+    left: 0;
+}
+
+.g-accordion .head {
+    padding: 20px 0 20px 25px;
+}
+
+.feedback-liking-box h4 {
+    float: right;
+}
+
+.star-rating-box {
+    float: left;
+}
+
+.average-time-box ul li a.phone, .average-time-box ul li a.location {
+    background-position: 10px center;
+}
+
+.ways-apply-box li img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.list-arrow li a {
+    padding-left: 0;
+    padding-right: 20px;
+    background: url("../img/arrow-white-ar.png") no-repeat right 4px;
+}
+
+.control {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.control__indicator {
+    left: auto;
+    right: 0;
+}
+
+.scl-share-box .share {
+    float: right;
+    border-right: none;
+    border-left: 1px solid #fff;
+}
+
+.scl-share-box .list-inline {
+    float: right;
+}
+
+.scl-share-box .list-inline li {
+    float: right;
+}
+
+.services-detail-head ul li a {
+    float: right;
+}
+
+.services-detail-head ul li {
+    float: right;
+    margin: 0 0 0 4%;
+}
+
+.large .services-detail-head .sticky-detail.car-sticky ul li {
+    margin: 0 0 0 3%;
+}
+
+.medium .services-detail-head ul li {
+    margin: 0 0 0 3%;
+}
+
+.rate-us fieldset input {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.rate-us fieldset input:nth-of-type(3) {
+    margin-left: 0;
+}
+
+.rate-us fieldset img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.rate-us .thank-msg em {
+
+    margin: 0 0 0 15px;
+}
+
+.overlay-questions {
+    width: 530px;
+}
+
+/*faqs-search
+--------------------------------*/
+.faqs-search fieldset input {
+    padding: 20px 45px 20px 50px;
+}
+
+.faqs-search fieldset:before {
+    left: auto;
+    right: 20px;
+}
+
+.faqs-search fieldset:after {
+    right: auto;
+    left: 15px;
+}
+
+.faqs-search .question-search h4 {
+    padding: 0 0 0 25px;
+}
+
+.faqs-search h4:before {
+    right: auto;
+    left: 7px;
+}
+
+.faqs-search h4:after {
+    right: auto;
+    left: 0;
+}
+
+/*.faqs-search .question-search {
+    height: 239px;
+}*/
+
+.faqs-search fieldset input[type="button"] {
+    right: auto;
+    left: 0;
+}
+
+/*.overlay-questions .start-typing textarea{*/
+/*width:400px;*/
+/*}*/
+
+.error-404 .contact-info-box .social-icon a {
+    margin: 0 0 0 30px;
+}
+
+.social.footer-copyright .pull-right {
+    float: left !important;
+}
+
+.overlay-questions .chat-start .chat-history li {
+    padding: 0;
+}
+
+.overlay-questions .chat-start .chat-history li h2 {
+    padding: 5px 65px 0 35px;
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+2) h2 {
+    padding: 5px 35px 0 66px;
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+1) p {
+    border-radius: 56px 0 56px 56px
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+2) p {
+    padding: 6px 27px 5px 66px;
+    border-radius: 0 56px 56px 56px;
+}
+
+.overlay-questions .chat-start .chat-history ul li:nth-of-type(2n+1) .time {
+    left: 0;
+    right: inherit;
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+2) .time {
+    right: 0;
+    left: inherit;
+}
+
+.overlay-questions .chat-start .chat-history li em {
+    top: 0;
+}
+
+.overlay-questions .chat-start .chat-history li p {
+    padding: 6px 66px 5px 35px;
+}
+
+.overlay-questions .start-typing .file-attached {
+    float: right;
+    margin: 10px 0 0 22px;
+}
+
+.overlay-questions .start-typing .textarea {
+    float: right;
+    width: 344px;
+}
+
+.overlay-questions .start-typing .textarea a {
+    left: 10px;
+    right: inherit;
+
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+2) {
+    text-align: left;
+}
+
+.overlay-questions .chat-start .chat-history li:nth-of-type(2n+2) em {
+    left: 0;
+    right: inherit;
+}
+
+.overlay-questions .chat-start .chat-discussion ul li span {
+    float: right;
+}
+
+.overlay-questions .chat-start .chat-discussion ul li span i + i {
+    margin-right: -21px;
+}
+
+.overlay-questions .chat-start .chat-discussion ul li .chat-discussion-detail .chat-log span img {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.online-chat fieldset .checkbox label:before {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.overlay-questions .status .email-n-print {
+    float: right;
+}
+
+.our-services .most-popular fieldset input[type=button] {
+    right: auto;
+    left: 0;
+}
+
+.medium .footer-service ul li:nth-child(4) a{
+    padding: 8px 6px 8px 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .our-services .car-services li a:after {
+        left: auto;
+        right: -14%;
+    }
+
+    .footernav ul:last-child,
+    .footernav ul:nth-child(4){ width: 50%; margin-left: 0; border-bottom: 1px solid #ededed; padding-bottom: 10px; }
+    .footernav ul:last-child li,
+    .footernav ul:nth-child(4) li{ float: right; }
+    .footernav ul:nth-child(4) li{ margin-right: 20px;}
+    .footernav ul:last-child{ padding-left: 0;}
+}
+
+@media screen and (max-width: 1266px) and (min-width: 768px) {
+    .smart-app .swiper-button-prev, .smart-app .swiper-container-rtl .swiper-button-next {
+        right: auto;
+        left: -2px;
+    }
+
+    .smart-app .swiper-button-next, .smart-app .swiper-container-rtl .swiper-button-prev {
+        right: auto;
+        left: 40px;
+    }
+}
+
+@media screen and  (max-width: 1199px) {
+    .mobile-app-wrapper ul li:nth-child(5), .mobile-app-wrapper ul li:nth-child(10) {
+        padding: 15px 0 0 15px;
+    }
+
+    .populer-wrapper ul li:nth-child(4), .populer-wrapper ul li:nth-child(8) {
+        padding: 15px 0 0 15px;
+    }
+
+    .car-services li {
+        margin: 0 0 0 3.2%;
+    }
+
+    .services-detail-head ul li {
+        margin: 0 0 0 3%;
+    }
+
+    .large .services-detail-head .sticky-detail.car-sticky ul li {
+        margin: 0 2% 0 0;
+    }
+}
+
+@media screen and  (max-width: 990px) {
+    .mobile-app-wrapper ul li:nth-child(3), .mobile-app-wrapper ul li:nth-child(6), .mobile-app-wrapper ul li:nth-child(9) {
+        padding: 15px 0 0 15px;
+    }
+
+    .car-services li {
+        margin: 0 0 0 0.3%;
+    }
+
+    .categories-list .col-grid25:nth-of-type(2n+2) {
+        margin-left: 0;
+    }
+
+    .categories-list .col-grid25:nth-of-type(2n+3) {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .services-detail-head ul li {
+        margin: 0 0 0 1%;
+    }
+
+    .medium .services-detail-head ul li {
+        margin: 0 0.6% 0 0;
+    }
+
+    .large .services-detail-head .sticky-detail.car-sticky ul li {
+        width: 10%;
+    }
+
+    .large .absolute-container {
+        width: 124%;
+    }
+
+}
+
+@media (device-width: 768px) and (orientation: portrait) {
+    .car-services li span {
+        margin: 7px 12px 0 0;
+        width: 50%;
+    }
+
+    .our-services .car-services li a:after {
+        right: -1%;
+    }
+
+    .absolute-container {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-sticky {
+        right: 0;
+    }
+
+    .site-control {
+        width: 159px;
+    }
+
+    .mobile-app-wrapper ul li {
+        padding: 15px 0 0 15px !important;
+    }
+
+    .mobile-app-wrapper ul li:nth-of-type(2n+2) {
+        padding-left: 0 !important;
+    }
+
+    .support-wrapper ul li:nth-child(3), .support-wrapper ul li:nth-child(5) {
+        border-right: 1px solid #ffffff;
+    }
+
+    .footer-service ul li {
+        float: right;
+    }
+
+    .footer-service ul li a {
+        padding: 21px 15px;
+    }
+
+    .footer-service ul li span:nth-child(1) {
+        right: -7px;
+    }
+
+    .footer-service ul li:nth-child(3) a {
+        background-position: 7px center;
+    }
+
+    .footer-service ul li:nth-child(4) a {
+        background-position: 3px center;
+    }
+
+    .footer-service ul li span:nth-child(1), .footer-service ul li span:nth-child(2) {
+        top: -5px;
+    }
+
+    .mobile-services {
+        width: 80px;
+        font-size: 11px;
+    }
+
+    .happy-logo-right {
+        width: 63%;
+    }
+
+    .happy-meter ul li {
+        padding: 10px 0px 0 0;
+        width: 30%;
+    }
+
+    .close-sticky {
+        right: auto;
+        left: 5px;
+    }
+
+    .footer-service {
+        width: auto;
+    }
+
+    .search-box {
+        padding: 3px 40px 0 0;
+    }
+
+    .populer-wrapper ul li:nth-child(3), .populer-wrapper ul li:nth-child(6) {
+        padding: 15px 0 0 15px;
+    }
+
+    .populer-wrapper ul li:nth-of-type(2n+2) {
+        padding: 15px 0 0 0;
+    }
+
+    .footer-service-happy {
+        left: 0;
+    }
+
+    .footer-service-happy {
+        margin-right: 0;
+    }
+
+    .services-detail-head ul li.init:after {
+        right: auto;
+        left: 14px;
+    }
+
+    .footernav ul:last-child,
+    .footernav ul:nth-child(4){ width: 50%; margin-left: 0; border-bottom: 1px solid #ededed; padding-bottom: 10px; }
+    .footernav ul:last-child li,
+    .footernav ul:nth-child(4) li{  float:right; width: 100% }
+    .footernav ul:nth-child(4) li {
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .parkingMainWrapper .car-service-content ul li a {background: #ee0000 url(../img/arrow-white-ar.png) no-repeat 360px 7px!important;}
+    .pz-fix h2 {    margin-right: -9px!important;}
+    .fix-03 {float: right;width: 97%;margin-right: 7px;}
+    #dubai-bus h1 {margin: 15px 15px 10px 15px!important;}
+    .abra-col h2 {margin: 15px 15px 10px 15px!important;}
+    .route-map-h2 .abra-col {min-height: 50px!important;}
+    .water-taxi-white {min-height: 50px!important;}
+    .ferry-fix-1 { padding-bottom: 20px!important;}
+    .mobile-fix-001 .row {margin:-5px 0 10px 15px!important;}
+    .fares  h2, .print-col-1 h2 {margin: 15px 0px 10px 15px!important;}
+    .public-transport-nol-card-list .col-grid25 {width: 120px!important;height: 65px!important; margin: 0 0 5px 6px!important; }
+    .Book-water-ferry .public-transport-nol-card-list .col-grid25 {float: right!important;margin: 0 5px 5px 6px!important;}
+    .wt-ar-fix-01 .public-transport-nol-card-list .col-grid25 {width: 120px!important;height: 65px!important;margin: 0 0 5px 6px!important;}
+
+
+
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        width: 100%;
+    }
+
+    .footer-service-happy ul li a {
+        padding: 21px;
+    }
+
+    .drive-n-car-service .car-service-content ul li {
+        background-position: 98% 7px;
+    }
+
+    .icon-label {
+        right: 0 !important;
+    }
+
+    .our-services .car-services li em {
+        float: left;
+        margin: 0 0 0 15px;
+    }
+
+    .our-services .car-services li a:after {
+        left: auto;
+        right: -9%;
+    }
+
+    .our-services .drive-n-car-service .icon-label {
+        left: 0 !important;
+        right: auto !important;
+    }
+
+    .categories-list .col-grid25:nth-of-type(2n+2) {
+
+        margin-left: 0;
+    }
+
+    .categories-list .col-grid25:nth-of-type(2n+3) {
+        margin-right: 0;
+        margin-left: 20px;
+
+    }
+
+    .services-detail-head ul li {
+        float: right;
+    }
+
+    .blue-dark-box {
+        margin-left: 0;
+    }
+
+    .rate-us fieldset input.security-code {
+        clear: right;
+    }
+
+    .rate-us fieldset .btn-custom {
+        clear: right;
+        float: right;
+    }
+
+    .footer-service ul li:nth-of-type(2) a {
+        padding: 21px 17px 21px 0px;
+    }
+
+    .footer-service ul li:nth-child(3) a {
+        padding: 21px 17px 21px 8px;
+    }
+
+    .footer-service ul li:nth-of-type(2) {
+        width: 13%;
+    }
+
+    .footer-service ul li span:nth-child(1), .footer-service ul li span:nth-child(2) {
+        font-size: 7.5px;
+    }
+
+    .overlay-questions {
+        width: 100%;
+        bottom: 43px;
+    }
+
+    .overlay-request h3, .overlay-questions h3 {
+        font-size: 32px;
+    }
+
+    .grey-dark-box {
+        margin-left: 0;
+    }
+
+    .accordion-multi-box {
+        padding-left: 0;
+    }
+
+    #set-1 ul li:nth-child(1) a {
+        background-position: 124px center !important;
+    }
+
+    .social.footer-copyright .col-xs-4 {
+        width: 33.33333333%;
+    }
+
+    .social.footer-copyright .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .overlay-questions .start-typing .textarea {
+        width: calc(100% - 106px);
+    }
+
+    .error-404.services-accessible .categories-list .col-grid25{
+        max-height: 109px;
+    }
+
+    .footernav ul:nth-child(4) li {
+        margin-right: 0;
+    }
+
+    .overlay-request h3, .overlay-questions h3 {
+        font-size: 32px;
+    }
+
+    .categories-list .col-grid25 {
+        height: 81px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #set-2 ul li:nth-child(1) a {
+        background-position: 90px center !important;
+    }
+
+    #set-2 ul li:nth-child(2) a {
+        background-position: 89px center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .explore-rta-wrapper .drive-n-car h2 {font: bold 20px 'RTA'!important;}
+
+    .parkingMainWrapper .car-service-content ul li a {background: #ee0000 url(../img/arrow-white-ar.png) no-repeat 267px 7px!important;}
+    #white-tiles-theme .pt-fix-03 img {height: 315px!important;}
+    .abra-col .column.col-3 .col .wrap-data {width: 75%!important;}
+
+    .mobile-services {
+        width: 60px;
+        font-size: 9px;
+    }
+
+    .footer-service ul li span:nth-child(2) {
+        padding: 0 0 0 17px;
+    }
+
+    .footer-service ul li:nth-child(3) a {
+        padding: 21px 10px 21px 8px;
+    }
+
+    .categories-list .col-grid25 .category-item h4 {
+        font-size: 9px;
+    }
+}
+
+.blind-color .error-404 .contact-info-box .btn-404 {
+    background: url(../img/sub-menu-arrow-ar.png) no-repeat right 1px;
+}
+
+.blind-green .error-404 .contact-info-box .btn-404 {
+    background: url(../img/sub-menu-arrow-ar.png) no-repeat right 1px;
+}
+
+.blind-red .error-404 .contact-info-box .btn-404 {
+    background: url(../img/sub-menu-arrow-ar.png) no-repeat right 1px;
+}
+
+.blind-green .footer-service ul li:nth-child(3) a, .blind-color .footer-service ul li:nth-child(3) a:hover,
+.blind-red .footer-service ul li:nth-child(3) a, .blind-color .footer-service ul li:nth-child(3) a:hover,
+.blind-color .footer-service ul li:nth-child(3) a,
+.blind-color .footer-service ul li:nth-child(3) a:hover {
+    background: url(../img/sticky-chat-CMB.png) no-repeat left 10px center #53565b;
+    background-size: 6%;
+}
+
+.blind-red #main_nav_part ul.main_nav_bar .list-space > li.inner-active-link, .blind-red #main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover.active-fast, .blind-red #main_nav_part ul.main_nav_bar .list-space > li.arrow-sub-menu:hover {
+    background: url(../img/sub-menu-arrow-ar.png) no-repeat 92% 13px;
+}
+
+
+.print-chat-con{display: none;}
+
+.chat-print form,
+.chat-print .btn2,
+.chat-print .start-typing,
+.chat-print .chat-btn
+.start-typing{
+    display: none;
+}
+
+/*Large*/
+.large #dubai-bus-wrapper .left-icon-widget.column .col {width: 31%;    padding-bottom: 0px;}
+
+/*medium*/
+.large #dubai-bus-wrapper .left-icon-widget.column .col {width: 31%;    padding-bottom: 0px;}
+.medium .tajeel-tab .nav-pills li a {min-height: 103px;}
+
+/*small*/
+
+#white-tiles-theme .journey-planner-icons .col-grid25 {width: 140px;height: 60px;}
+.journey-planner-icons .col-grid25 .category-item {padding: 0 10px;}
+.top-align {margin-top: -15px;}
+.min-height { min-height: 200px;}
+.min-height p { display: block; padding-top: 100px;vertical-align: middle;}
+#white-tiles-theme .jp-ar .col-grid25 {left: 60px!important;}
+#white-tiles-theme .journey-planner-icons .col-grid25 {left: 60px!important;}
+#Book a {float: right!important;clear: left!important;  margin: 20px 0px 0 20px!important;}
+.tajeel-tab .nav-pills li a {text-align: right!important; margin-right: 0px!important; margin-left: 20px!important;}
+
+.small .tajeel-tab .nav-pills li a {  min-height: 102px;}
+.tajeel-tab .nav-pills li a {min-height: 84px;}
+
+.notification-panel .panel-head {padding: 35px 128px 35px 30px;float: right;}
+.notification-panel .panel-data {padding: 60px 130px;padding: 6rem 13rem;width: 100%;}
+.tmt-col em img {    padding: 0 0 0 10px;}
+.tmt-col ul {float: right!important;}
+.tmt-row em {padding: 0 0 0 15px;}
+
+
+.tajeel-img img {float: right;}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    font-family: RTA;
+    margin: 0;
+}
+#global-search input {font-family: RTA;margin: 0;}
+#logos .pull-right {float: right!important;}
+#logos .pull-left {float: left!important;}
+.abra-col table tr td h3 {text-align: right!important;}
+.abra-col table tr td {text-align: right!important;}
+.left-icon-widget.column .col {padding-left: 0rem; padding-right: 0rem;}
+
+.df {width: 55%;    padding: 0 0 0 200px;}
+.Book-water-ferry .public-transport-nol-card-list .col-grid25 {float: right;margin: 42px 0px 20px 20px; width: 199px;height: 85px;}
+.large  #main_nav_part ul.main_nav_bar>li>a>p {line-height: 14px;font-size: 14px!important; font-weight: normal!important;}
+.medium  #main_nav_part ul.main_nav_bar>li>a>p {line-height: 13px;font-size: 13px!important;font-weight: normal!important;}
+.small  #main_nav_part ul.main_nav_bar>li>a>p {line-height: 12px;font-size: 12px!important;font-weight: normal!important;}
+.large .left-icon-widget.column .wrap-data p {line-height: 16px;font-size: 16px!important;}
+.medium .left-icon-widget.column .wrap-data p {line-height: 14px;font-size: 14px!important;}
+.small .left-icon-widget.column .wrap-data p {line-height: 12px;font-size: 12px!important;}
+.small .abra-col .column.col-3 .col .wrap-data {width: 60%;}
+
+.abra-col h2 {font: bold 30px 'RTA';color: #53565a;font-size: 3rem;}
+
+
+/* for iphone 6  */
+@media screen and (min-device-width: 326px)and (max-device-width: 410px) {
+    #white-tiles-theme .pt-fix-03 img {/*height: 325px!important;*/}
+    .abra-col .column.col-3 .col .wrap-data {width: 65%!important;}
+    .explore-rta-wrapper .column.col-3 .col .wrap-data {width: 78%!important;}
+    .fix-03 {float: right;width: 97%;margin-right: 7px;}
+    .tab-wrapper>.tab-content {width:100%!important;}
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .left-icon-widget.column .wrap-icon {
+        width: 50px;
+    }
+    .medium #Book .em img {
+        width: 100%;
+        height: 220px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+.ar-btn-fix .col-lg-2 {width: 14.666667%!important; margin: 0; padding: 0!important;}
+
+}
+
+.tableWrapper .colH1 {text-align: right;}
+.parkingMainWrapper .car-service-content ul li a {
+    float: right;
+    clear: right;
+    padding: 5px 27px 0 11px;
+    background: #ee0000 url(../img/arrow-white-ar.png) no-repeat 210px 7px;
+    margin: 0 0 10px;
+}
+
+.pt-fix-03 {margin: 0 0px 15px 15px;}
+
+@media screen and (min-device-width: 321px)and (max-device-width: 767px) {
+
+    .vm-text {
+        float: right!important;
+        padding: 0 65px 0 0!important;
+        margin: -10px 0 20px 0px;
+    }
+
+}
+
+
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    font-family: GE_SS_Text_Light,arial;
+    margin: 0;
+}
+
+#display-date {unicode-bidi: embed;
+    direction: ltr;
+    font-family: arial!important;}

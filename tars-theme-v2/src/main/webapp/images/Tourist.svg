@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.273" height="101.064" viewBox="0 0 100.273 101.064">
+  <g id="Tourist" transform="translate(-480.998 -802.002)">
+    <path id="Subtraction_37" data-name="Subtraction 37" d="M20952,12172a49.84,49.84,0,1,1,19.461-3.929A49.717,49.717,0,0,1,20952,12172Zm.705-48.729c-3.5,0-9.406.662-9.656.69-.027.008-2.809.842-4.949,4.892a18.647,18.647,0,0,0-1.8,8.879l0,.008a13.344,13.344,0,0,0,3.67,2.694,26.345,26.345,0,0,0,12.174,2.792h.379a24.377,24.377,0,0,0,11.883-2.743,13.047,13.047,0,0,0,3.588-2.743c.006-.054.74-5.5-1.424-9.529a8.575,8.575,0,0,0-3.4-3.638,4.906,4.906,0,0,0-1.809-.611A80.063,80.063,0,0,0,20952.707,12123.271Zm.1-21.795c-4.959,0-8.992,4.351-8.992,9.7s4.033,9.7,8.992,9.7,8.992-4.351,8.992-9.7S20957.762,12101.476,20952.8,12101.476Z" transform="translate(-20421 -11270)" fill="#be97e3"/>
+    <g id="Component_152" data-name="Component 152" transform="translate(481.271 869.066)">
+      <path id="Path_6159" data-name="Path 6159" d="M30,0H130V34H30Z" transform="translate(-30)" fill="#171c8f"/>
+      <text id="Tourist-2" data-name="Tourist" transform="translate(50.249 21.5)" fill="#fff" font-size="14" font-family="RTA Custom, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="600"><tspan x="-22.162" y="0">Tourist</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="249" height="266.58" viewBox="0 0 249 266.58">
+  <g id="addNewCustomer" transform="translate(-810 -1039)">
+    <rect id="Rectangle_2725" data-name="Rectangle 2725" width="249" height="205" transform="translate(810 1039)" fill="#f6f9fe"/>
+    <g id="Group_6189" data-name="Group 6189" transform="translate(810 1243.58)">
+      <path id="Path_6166" data-name="Path 6166" d="M-70,0H179V62H-70Z" transform="translate(70)" fill="#ee0006"/>
+      <text id="Add_New_Customer" font-family="RTA Custom, Helvetica Neue, Helvetica, Arial, sans-serif" data-name="Add New Customer" transform="translate(124.5 35.911)" fill="#fff" font-size="1.125em" font-weight="500"><tspan x="-86.84" y="0">Add New Customer</tspan></text>
+    </g>
+    <g id="Group_5029" data-name="Group 5029" transform="translate(886.841 1083.552)">
+      <ellipse id="Ellipse_327" data-name="Ellipse 327" cx="26.508" cy="28.602" rx="26.508" ry="28.602" transform="translate(22.22 0)" fill="#7f30c7"/>
+      <path id="Path_7615" data-name="Path 7615" d="M-9980.609-14813.876s17.924-2.033,28.469-2.033,25.494,2.033,25.494,2.033,8.938.484,15.379,12.535c6.471,12.057,4.193,28.1,4.193,28.1s-13.3,16.545-46.734,16.172-46.719-16.172-46.719-16.172-1.045-14.152,5.322-26.205S-9980.609-14813.876-9980.609-14813.876Z" transform="translate(10000.591 14880.174)" fill="#7f30c7"/>
+    </g>
+  </g>
+</svg>

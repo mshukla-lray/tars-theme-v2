@@ -1,0 +1,17 @@
+<svg id="UAE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="37" viewBox="0 0 63 37">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1611" data-name="Rectangle 1611" width="63" height="37" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1025" data-name="Group 1025" transform="translate(0 0)">
+    <g id="Group_1024" data-name="Group 1024">
+      <g id="Group_1023" data-name="Group 1023" clip-path="url(#clip-path)">
+        <rect id="Rectangle_1607" data-name="Rectangle 1607" width="18.371" height="37" fill="#bc0030"/>
+        <rect id="Rectangle_1608" data-name="Rectangle 1608" width="44.629" height="12.333" transform="translate(18.371)" fill="#3f9b13"/>
+        <rect id="Rectangle_1609" data-name="Rectangle 1609" width="44.629" height="12.333" transform="translate(18.371 12.333)" fill="#fff"/>
+        <rect id="Rectangle_1610" data-name="Rectangle 1610" width="44.629" height="12.333" transform="translate(18.371 24.667)"/>
+      </g>
+    </g>
+  </g>
+</svg>
